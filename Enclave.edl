@@ -1,0 +1,6 @@
+enclave {
+    trusted {
+        public void store_password([in, string] const char* password);
+        public bool validate_password([in, string] const char* password);
+    };
+};
